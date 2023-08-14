@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Header/Navbar */
+
+header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 75px;
+}
+
+.logo {
+    font-size: large;
+    margin: 0 3%;
+}
+
+nav{
+    margin: 0 3%;
+}
+
+nav ul{
+    font-size: small;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+}
+
+/* Main */
+
+main {
+    margin: 0 3%;
+}
+
+/* BGS Row */
+
+.bgs-intro {
+    padding-top: 10%;
+    font-size:525%;
+}
+
+.bgs-info {
+    width: 60%;
+    font-size: 125%;
+}
+
+/* Buttons */
+
+.btn-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.btn-white {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 50px;
+    margin-bottom: 15%;
+    font-size: 70%;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.fa-solid {
+    padding: 0 5px 0 10px;
+}
+
+/* Video Row */
+
+.intro-video-row img{
+    width: 100%;
+    height:auto;
+    margin-bottom: 10%;
+}
+
+/* Mission Row */
+
+.mission-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mission-info {
+    font-size: 300%;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+/* 1st Image Left Content Right */
+
+.content-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15% 5%;
+}
+
+.img-left {
+    width: 55%;
+    height: auto;
+}
+
+.info-right {
+    display:inline-block;
+    justify-content: center;
+    width: 30%;
+    text-align: left;
+    font-size: 120%;
+    line-height: 150%;
+    margin: 0 5%;
+}
+
+.info-right-btn {
+    margin: 10% 0;
+}
+
+/* Explore Row */
+
+.explore-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.explore-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+    width: 45%;
+    margin-bottom: 5%;
+}
+
+.explore-btn {
+    display: flex;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin: 0 0 20% 0;
+}
+
+.card {
+    border: 1px solid white;
+    width: 45%;
+    height: auto;
+}
+
+.card-img {
+    display: flex;
+}
