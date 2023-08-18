@@ -88,8 +88,14 @@ main {
 
 /* Video Row */
 
+.intro-video-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .intro-video-row img{
-    width: 100%;
+    width: 95%;
     height:auto;
     margin-bottom: 10%;
 }
@@ -161,6 +167,8 @@ main {
     display: flex;
 }
 
+/* Sponsor Row */
+
 .card-row {
     display: flex;
     justify-content: space-around;
@@ -172,9 +180,55 @@ main {
 .card {
     border: 1px solid white;
     width: 45%;
-    height: auto;
+    height: 20rem;
 }
 
 .card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sponsor-icons {
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+}
+
+.sponsor-logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:15%;
+    height:auto;
+    margin-inline: 2%;
+}
+
+/* Partner Row */
+
+.partner-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.partner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.partner-btn {
     display: flex;
 }
